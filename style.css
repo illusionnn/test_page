@@ -1,0 +1,68 @@
+html{
+ 100%;
+}
+body{
+  background: -webkit-gradient(linear, left top , right bottom, from(#f12711), to(#f5af19)) fixed;
+  font-family: sans;
+}
+
+.wel {
+  text-align: center;
+  position: absolute;
+  left: 35%;
+  top: 10px;
+  font-size: 40px;
+}
+
+.option-box{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+  padding: 70px ;
+  transform: translate( -50%, -50%);
+  background: rgba(0,0,0,.4);
+  box-sizing: border-box;
+  box-shadow: 10px 15px 25px rgba(0,0,0,50);
+  border-radius: 30px;
+}
+
+.option-box .a1 {
+  position: absolute;
+  left: 115px;
+  top: 25px;
+  font-size: 30px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  transition: .5s;
+  color: #03e9f4;
+  display: inline-black;
+}
+.option-box .a2 {
+  position: absolute;
+  left: 147px;
+  font-size: 30px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  transition: .5s;
+  color: #03e9f4;
+  display: inline-black;
+}
+.option-box .a1:hover {
+  background: #993CF3;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+.option-box .a2:hover {
+  background: #993CF3;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
