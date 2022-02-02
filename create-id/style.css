@@ -1,0 +1,81 @@
+html{
+  100%;
+}
+body{
+  font-family: sans;
+  background:  -webkit-gradient(linear, left top, left bottom, from(#33ccff), to(#ff99cc)) fixed;
+}
+
+.user-box{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  padding: 50px;
+  background: rgba(0,0,0,.4);
+  box-sizing: border-box;
+  box-shadow: 10px 15px 25px rgba(0,0,0,50);
+  border-radius: 30px;
+}
+
+.user-box .h2{
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+.user-box .get-data{
+  postion: relative;
+}
+
+.user-box .get-data input{
+  postion: absolute;
+  width: 300px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #000;
+  border-bottom: 1px solid #fff;
+}
+
+.user-box .get-data label{
+  position: absolute;
+  left: 50px;
+  padding: 0 0;
+  font-size: 20px;
+  color: #fff;
+  transition: .5;
+  font-size: 25px;
+}
+
+.user-box .get-data input:focus ~ label,
+.user-box .get-data input:valid ~ label {
+  position: relative;
+  top: -20px;
+  left: -310px;
+  color: #03e9f4;
+  font-size: 15px;
+}
+
+.user-box a{
+  position: absolute;
+  left: 180px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #03e9f4;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display:inline-black;
+  over-flow: hidden;
+}
+
+.user-box a:hover{
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
